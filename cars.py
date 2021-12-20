@@ -1,5 +1,7 @@
-cars = ['bmw', 'audi', 'toyota', 'subaru']
-print(cars)
+cars = ['audi', 'bmw', 'subaru', 'toyota']
 
-cars.reverse()
-print(cars)
+for car in cars:
+    if car == 'bmw':
+        print(car.upper())
+    else:
+        print(car.title())
